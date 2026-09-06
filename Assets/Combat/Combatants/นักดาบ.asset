@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9edddfcc538f26644b392d84bd089d5c, type: 3}
+  m_Name: "\u0E19\u0E31\u0E01\u0E14\u0E32\u0E1A"
+  m_EditorClassIdentifier: Assembly-CSharp::Combat.Data.CombatantDefinition
+  combatantName: "\u0E19\u0E31\u0E01\u0E14\u0E32\u0E1A"
+  maxHP: 60
+  atk: 14
+  def: 9
+  critChance: 0.08
+  critMultiplier: 1.5
+  skills:
+  - {fileID: 11400000, guid: 106f9e08d65685a43bc3b5eb3f983997, type: 2}
+  - {fileID: 11400000, guid: be76a89c5ed030347970d94b5440c01b, type: 2}
+  - {fileID: 11400000, guid: c23d43197bd2c12499461f7218acce7c, type: 2}
+  - {fileID: 11400000, guid: 02cf79fdce92e6340b0ed34f418aae31, type: 2}
+  color: {r: 0.25, g: 0.45, b: 0.85, a: 1}

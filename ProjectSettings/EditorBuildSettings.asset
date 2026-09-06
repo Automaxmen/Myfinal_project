@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ccb8e6b0208de824883442f16470c19d
+  - enabled: 1
+    path: Assets/Scenes/Prologue.unity
+    guid: a1913ccfa39d41e469129055b4a92a0a
+  - enabled: 1
+    path: Assets/Scenes/VisualNovelDemo.unity
+    guid: e6b3555efc2626f42bba8753548097b5
+  - enabled: 1
+    path: Assets/Scenes/TurnBasedBattle.unity
+    guid: 50e2ad7462c8b60499a661da3c35ce9a
+  - enabled: 1
+    path: Assets/Scenes/TurnBasedBattle_Forest.unity
+    guid: 6b9607483dce4c14cacf7d884708e427
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

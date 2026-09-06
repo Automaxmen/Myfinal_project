@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9edddfcc538f26644b392d84bd089d5c, type: 3}
+  m_Name: Arthur
+  m_EditorClassIdentifier: Assembly-CSharp::Combat.Data.CombatantDefinition
+  combatantName: Arthur
+  maxHP: 40
+  maxMana: 25
+  atk: 12
+  def: 8
+  critChance: 0.1
+  critMultiplier: 1.5
+  skills:
+  - {fileID: 11400000, guid: 97c17d05d14beac42a1177b6b0779c91, type: 2}
+  - {fileID: 11400000, guid: 6b0d8b218b8814e44ba42a77dc7ca689, type: 2}
+  - {fileID: 11400000, guid: 231dcf2b4d0b45b4d8670dff98718116, type: 2}
+  - {fileID: 11400000, guid: 5c15434c8e908b6429e2a9960af14f7b, type: 2}
+  color: {r: 0.95, g: 0.8, b: 0.25, a: 1}

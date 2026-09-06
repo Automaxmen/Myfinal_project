@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9edddfcc538f26644b392d84bd089d5c, type: 3}
+  m_Name: Motor
+  m_EditorClassIdentifier: Assembly-CSharp::Combat.Data.CombatantDefinition
+  combatantName: Motor
+  maxHP: 35
+  maxMana: 22
+  atk: 9
+  def: 6
+  critChance: 0.12
+  critMultiplier: 1.5
+  skills:
+  - {fileID: 11400000, guid: dae4aefc7abf7a644ac382689a6deb97, type: 2}
+  - {fileID: 11400000, guid: f65ea19eaef30f942b3ca0a165bfb8d0, type: 2}
+  - {fileID: 11400000, guid: 08d67f23a807fc2478c366f4fc72d816, type: 2}
+  - {fileID: 11400000, guid: a2fcb65a5971a204eb3520c5d7d8749f, type: 2}
+  color: {r: 0.55, g: 0.6, b: 0.65, a: 1}
